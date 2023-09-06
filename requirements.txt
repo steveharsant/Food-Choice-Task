@@ -1,0 +1,5 @@
+numpy
+pandas
+psychopy
+psychopy-mri-emulator
+scipy
