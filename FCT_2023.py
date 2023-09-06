@@ -29,6 +29,9 @@ def run():
 
     ######################### Saving Data File Info########################
 
+    if not os.path.exists(f"{_thisDir}/data"):
+        os.mkdir(f"{_thisDir}/data")
+
     save_filename = f"{_thisDir}/data/{expInfo['participant']}_{expInfo['date']}_behav"
     save_foodtask = f"{_thisDir}/data/{expInfo['participant']}_{expInfo['date']}_foodtask"
     save_output = f"{_thisDir}/data/{expInfo['participant']}_{expInfo['date']}_choiceoutput"
