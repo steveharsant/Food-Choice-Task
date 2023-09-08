@@ -32,5 +32,5 @@ Please take a break then press space to continue.
 
 REF_BACKUP = ["stimuli/saltines.jpg"]
 DUMMYFOOD = "stimuli/yellow rice_beans.jpg"
-BLUEBERRY = "stimuli/AA026339.jpg"
-RASPBERRY = "stimuli/AA026337.jpg"
+BLUEBERRY = "stimuli/AA026339.png"
+RASPBERRY = "stimuli/AA026337.png"
